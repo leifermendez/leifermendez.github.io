@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3633221c-a911-4a1f-bd82-3495ac90af37" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scripts/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scripts/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +33,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -70,7 +75,7 @@
       <updated>1551608345511</updated>
       <workItem from="1551608346839" duration="23000" />
       <workItem from="1581185013415" duration="1823000" />
-      <workItem from="1581242621984" duration="7472000" />
+      <workItem from="1581242621984" duration="8352000" />
     </task>
     <servers />
   </component>

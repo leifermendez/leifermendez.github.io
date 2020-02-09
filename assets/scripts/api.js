@@ -24,6 +24,7 @@ getMyData = () => {
     const repos = document.querySelector('#my_profile_my_repos');
     const avatar = document.querySelector('#my_profile_avatar');
     const linkedin = document.querySelector('#my_profile_linkedin');
+    const medium = document.querySelector('#my_profile_medium');
 
     fetch('https://api.github.com/users/leifermendez')
         .then(function (response) {
@@ -33,8 +34,9 @@ getMyData = () => {
             name.innerHTML = myJson.name
             company.innerHTML = myJson.company
             about_me.innerHTML = myJson.bio
-            repos.innerHTML = myJson.html_url
-            linkedin.innerHTML = 'https://www.linkedin.com/in/leifermendez/'
+            repos.innerHTML = `<a href="${myJson.html_url}" target="_blank">${myJson.html_url}</a>`
+            linkedin.innerHTML = `<a href="https://www.linkedin.com/in/leifermendez/" target="_blank">https://www.linkedin.com/in/leifermendez/</a>`
+            medium.innerHTML = `<a href="https://medium.com/@leifer33" target="_blank">https://medium.com/@leifer33</a>`
             avatar.src = myJson.avatar_url
             console.log(myJson);
         });
