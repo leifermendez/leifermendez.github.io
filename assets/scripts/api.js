@@ -19,7 +19,6 @@ syntaxHighlight = (json) => {
 
 getMyData = () => {
     const name = document.querySelector('#my_profile_name');
-    const company = document.querySelector('#my_profile_company');
     const about_me = document.querySelector('#my_profile_about_me');
     const repos = document.querySelector('#my_profile_my_repos');
     const avatar = document.querySelector('#my_profile_avatar');
@@ -32,7 +31,6 @@ getMyData = () => {
         })
         .then(function (myJson) {
             name.innerHTML = myJson.name
-            company.innerHTML = myJson.company
             about_me.innerHTML = myJson.bio
             repos.innerHTML = `<a href="${myJson.html_url}" target="_blank">${myJson.html_url}</a>`
             linkedin.innerHTML = `<a href="https://www.linkedin.com/in/leifermendez/" target="_blank">https://www.linkedin.com/in/leifermendez/</a>`
@@ -53,6 +51,16 @@ getMyRepos = () => {
         });
 }
 
+getOrganization = () => {
+    const company = document.querySelector('#my_profile_company');
+    fetch('https://api.github.com/users/leifermendez/orgs')
+        .then(function (response) {
+            return response.json();
+        })
+        .then(function (myJson) {
+            company.innerHTML =`<a href="https://github.com/${myJson[0].login}" target="_blank">@${myJson[0].login}</a>`
+        });
+}
 getMyGits = () => new Promise((resolve, reject) => {
     fetch('https://api.github.com/users/leifermendez/gists')
         .then(function (response) {
@@ -100,3 +108,4 @@ getData = (opt = 'data') => {
 
 getMyData();
 getMyRepos();
+getOrganization();
