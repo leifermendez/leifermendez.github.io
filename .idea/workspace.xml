@@ -2,32 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3633221c-a911-4a1f-bd82-3495ac90af37" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Pe-icon-7-stroke.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Pe-icon-7-stroke.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Pe-icon-7-stroke.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Pe-icon-7-stroke.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/fa-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/avatars/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/avatars/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/avatars/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/avatars/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/avatars/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/avatars/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/avatars/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/avatars/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/avatars/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/avatars/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/logo-inverse.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/scripts/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/scripts/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +70,7 @@
       <updated>1551608345511</updated>
       <workItem from="1551608346839" duration="23000" />
       <workItem from="1581185013415" duration="1823000" />
-      <workItem from="1581242621984" duration="7316000" />
+      <workItem from="1581242621984" duration="7472000" />
     </task>
     <servers />
   </component>
