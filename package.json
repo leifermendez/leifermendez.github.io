@@ -1,0 +1,20 @@
+{
+  "name": "leifermendez.github.io",
+  "version": "1.0.0",
+  "description": "Public portfolio",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -a localhost -p 8888 -c-1 ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leifermendez/leifermendez.github.io.git"
+  },
+  "author": "leifer33@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leifermendez/leifermendez.github.io/issues"
+  },
+  "homepage": "https://github.com/leifermendez/leifermendez.github.io#readme"
+}
