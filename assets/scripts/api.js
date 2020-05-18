@@ -105,7 +105,7 @@ getData = (opt = 'data') => {
     }
 
 };
-
+getData();
 getMyData();
 getMyRepos();
 getOrganization();
