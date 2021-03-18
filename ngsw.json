@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1615050243591,
+  "timestamp": 1616005389132,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,13 +13,17 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.9314ffbf5f0e57ff314f.js",
+        "/main.650ff5d48e79eba1cdc6.js",
         "/manifest.webmanifest",
         "/polyfills.94daefd414b8355106ab.js",
         "/runtime.7b63b9fd40098a2e8207.js",
         "/styles.bdcd6ece399355f51665.css"
       ],
-      "patterns": []
+      "patterns": [
+        "https:\\/\\/stackpath\\.bootstrapcdn\\.com\\/bootstrap\\/4\\.1\\.3\\/css\\/bootstrap-grid\\.min\\.css",
+        "https:\\/\\/cdnjs\\.cloudflare\\.com\\/ajax\\/libs\\/animate\\.css\\/4\\.1\\.1\\/animate\\.min\\.css",
+        "https:\\/\\/unicons\\.iconscout\\.com\\/release\\/v3\\.0\\.6\\/css\\/line\\.css"
+      ]
     },
     {
       "name": "assets",
@@ -36,12 +40,31 @@
         "/assets/icons/icon-384x384.png",
         "/assets/icons/icon-512x512.png",
         "/assets/icons/icon-72x72.png",
-        "/assets/icons/icon-96x96.png"
+        "/assets/icons/icon-96x96.png",
+        "/assets/offline-page.html"
       ],
       "patterns": []
     }
   ],
-  "dataGroups": [],
+  "dataGroups": [
+    {
+      "name": "data-api",
+      "patterns": [
+        "https:\\/\\/api\\.github\\.com\\/users\\/leifermendez\\/repos",
+        "https:\\/\\/raw\\.githubusercontent\\.com\\/wiki\\/leifermendez",
+        "https:\\/\\/api\\.github\\.com\\/repos\\/leifermendez\\/portfolio-web",
+        "https:\\/\\/youtube\\.googleapis\\.com\\/youtube\\/v3\\/playlists\\?key=AIzaSyC14wybawh7qeY2qyPO5LDpW6NothdvUAg"
+      ],
+      "strategy": "freshness",
+      "maxSize": 5,
+      "maxAge": 3000000,
+      "timeoutMs": 5000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
   "hashTable": {
     "/assets/icons/icon-128x128.png": "c20dd580f93e773e5741889466596e946f782073",
     "/assets/icons/icon-144x144.png": "64fdd93a0ed5f6d2aebe582888cad102667c75c8",
@@ -51,10 +74,11 @@
     "/assets/icons/icon-512x512.png": "9ef95d8bba73d4f3e6b3d111048e600e59d7b564",
     "/assets/icons/icon-72x72.png": "929e17c58c1cf6248e504b8b7e46c10ff677f247",
     "/assets/icons/icon-96x96.png": "017e093a6591df1edf00f2c0ca5f0da29d2edc94",
+    "/assets/offline-page.html": "3015a8b30adb31b04103ffcbf2d888964539d742",
     "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/index.html": "708f91b5d06a80afbabbb9c94a7884cd0e7a65e6",
-    "/main.9314ffbf5f0e57ff314f.js": "dfd31f907f12a5e6ebe3992996d8757aa777f13f",
-    "/manifest.webmanifest": "46a697c303f1aaa1a05efdb60cdd4063a2265a2b",
+    "/index.html": "3b745cffe5d6a1ac2aec7fadd1627c66307309a5",
+    "/main.650ff5d48e79eba1cdc6.js": "1cbcc251daa946586223967fa3dc3a33650f2304",
+    "/manifest.webmanifest": "32bb1e8f57769b3820c5f051949ecc7b38a716a9",
     "/polyfills.94daefd414b8355106ab.js": "cfe7b0b53e96bff9ba384b4d497c08475a617d62",
     "/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "/styles.bdcd6ece399355f51665.css": "02a19df2c1da0c667c72913f86c841ec304207d9"

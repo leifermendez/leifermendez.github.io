@@ -5,7 +5,7 @@
   "background_color": "#00296b",
   "display": "standalone",
   "scope": "./",
-  "start_url": "./",
+  "start_url": "./?source=pwa",
   "icons": [
     {
       "src": "assets/icons/icon-72x72.png",
