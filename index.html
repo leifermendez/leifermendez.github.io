@@ -59,33 +59,16 @@ instalar mongodb en windows 10, angular, curso de angular, angular universal, tu
 <script type="text/javascript" src="https://connect.facebook.net/en_US/sdk.js"></script>
 <!-- This page was prerendered with Angular Universal -->
 
-
-<div id="fb-root"></div>
-
-<!-- Your Chat Plugin code -->
-<div id="fb-customer-chat" class="fb-customerchat">
-</div>
-
-<script>
-  var chatbox = document.getElementById('fb-customer-chat');
-  chatbox.setAttribute("page_id", "108020131360293");
-  chatbox.setAttribute("attribution", "biz_inbox");
-  window.fbAsyncInit = function () {
-    FB.init({
-      xfbml: true,
-      version: 'v10.0'
-    });
-  };
-
-  (function (d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s);
-    js.id = id;
-    js.src = 'https://connect.facebook.net/es_ES/sdk/xfbml.customerchat.js';
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));
-</script>
+<!-- Start Froged -->
+  <script>
+    window.frogedSettings = {
+      appId: "jeatuf"
+    }
+  </script>
+  <script>
+    (function(){var a=document,b=window;if("function"!=typeof Froged){Froged=function(a,b,c){Froged.c(a,b,c)},Froged.q=[],Froged.c=function(a,b,c){Froged.q.push([a,b,c])},fg_data={hooks:{}};var c=function(){var b=a.createElement("script");b.type="text/javascript",b.async=!0,b.src="https://IIFqhs.sdk.froged.com";var c=a.getElementsByTagName("script")[0];c.parentNode.insertBefore(b,c)};"complete"===a.readyState?c():window.attachEvent?b.attachEvent("onload",c):b.addEventListener("load",c,!1)}})()
+  </script>
+<!-- End Froged -->
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-88117609-1"></script>
